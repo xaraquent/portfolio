@@ -1,10 +1,10 @@
 * {
-    margin: 3px;
+    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: white;
     color: black;
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
@@ -12,41 +12,113 @@ body{
         Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: solid black;
     border-width: 1px;
-
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
 }
 
 .nav-links {
     display: flex;
     justify-content: flex-end;
+    gap: 15px;
 }
 
-h3{
-    font-size: 25px;
-    line-height: 30px;
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
 }
 
-p{
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1030px;
+    width: 90%;
+}
+
+.profile-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#selfie{
+    width: 400px;
+    margin: 30px;
+}
+
+.about-me{
+    width: 100%;
+    max-width: 800px;
+}
+
+.about-me h3 {
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.about-me p {
     font-size: 14px;
     line-height: 20px;
     color: #4b5563;
 }
 
-#selfie{
-    width: 300px;
+.work-button {
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 15px 50px;
+    background-color: #fff;
+}
+
+
+
+.work-title{
+    text-align: center;
+    font-size: 50px;
+    line-height: 65px;
+}
+
+.work-subtitle{
+    text-align: center;
+    color: #6b7280;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.chip-wrapper{
     display: flex;
     justify-content: center;
+    gap: 8px;
+    font-size: 14px;
 }
 
-.short-about-me {
-    width: 100%;
+.chip{
+    border: solid 1px;
+    border-radius: 9999px;
+    padding: 3px 10px;
+    margin: 20px 0px;
 }
 
-.about-me{
-    width: 100%;
+@media screen and (max-width: 1300px) {
+    .container{
+        display: block;
+    }
+    .about-me{
+        text-align: center;
+        margin: 0px auto;
+    }
+    .work-subtitle{
+        padding: 0px 80px;
+    }
 }
