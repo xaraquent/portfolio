@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: white;
-    color: black;
+    background-color: #16161a;
+    color: #fffffe;
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
         Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
         Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
@@ -21,7 +21,7 @@ nav {
     padding: 10px;
     position: sticky;
     top: 0px;
-    background-color: #fff;
+    background-color: #7f5af0;
 }
 
 .nav-links {
@@ -36,7 +36,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px;
+    padding: 50px;
 }
 
 .container {
@@ -61,39 +61,43 @@ main {
 .about-me{
     width: 100%;
     max-width: 800px;
+    font-family:"proxima-nova",sans-serif;
 }
 
 .about-me h3 {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 30px;
+    line-height: 40px;
 }
 
 .about-me p {
     font-size: 14px;
     line-height: 20px;
-    color: #4b5563;
+    color: #94a1b2;
 }
 
 .work-button {
     border: solid black 1px;
     border-radius: 5px;
     padding: 15px 50px;
-    background-color: #fff;
+    background-color: #7f5af0;
 }
 
-
+.work{
+    font-family:"proxima-nova",sans-serif;
+}
 
 .work-title{
     text-align: center;
-    font-size: 50px;
-    line-height: 65px;
+    font-size: 40px;
+    line-height: 50px;
 }
 
 .work-subtitle{
     text-align: center;
-    color: #6b7280;
+    color: #94a1b2;
     max-width: 1000px;
     margin: 0px auto;
+    font-size: 12px;
 }
 
 .chip-wrapper{
@@ -118,6 +122,11 @@ main {
         text-align: center;
         margin: 0px auto;
     }
+
+    .about-me p{
+        margin: 10px;
+    }
+
     .work-subtitle{
         padding: 0px 80px;
     }
