@@ -43,14 +43,14 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1030px;
+    max-width: 1200px;
     width: 90%;
 }
 
 .profile-pic{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 
 #selfie{
@@ -63,6 +63,7 @@ main {
     width: 100%;
     max-width: 800px;
     font-family:"proxima-nova",sans-serif;
+    margin: 20px;
 }
 
 .about-me h3 {
@@ -74,6 +75,7 @@ main {
     font-size: 14px;
     line-height: 20px;
     color: #94a1b2;
+    margin: 15px 0px;
 }
 
 .work-button {
@@ -134,4 +136,23 @@ main {
     .work-subtitle{
         padding: 0px 80px;
     }
+}
+
+/* .projects{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    gap: 20px;
+    padding: 0 20px;
+} */
+
+footer {
+    padding: 20px;
+    background: #7f5af0;
+}
+
+.footer-license {
+    text-align: center;
+    color: #16161a;
 }
