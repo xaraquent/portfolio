@@ -1,78 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./style.css" />
 
-        <title>Portfolio</title>
-    </head>
-    <body>
-        <nav>
-            <!-- Byt ut mot dina initialer -->
-            <h2>MM</h2>
-            <div class="nav-links">
-                <!-- Byt ut alla href länkar till era egna länkar till respektive hemsida -->
-                <!-- target="_blank" öppnar länken i en ny tab -->
-                <!-- Alla svg filer är hämtade från https://feathericons.com/ -->
-                <a href="https://github.com/imMatheus" target="_blank">
-                    <img src="./github.svg" alt="github link" />
-                </a>
-                <a href="https://github.com/imMatheus" target="_blank">
-                    <img src="./instagram.svg" alt="instagram link" />
-                </a>
-                <a href="https://github.com/imMatheus" target="_blank">
-                    <img src="./linkedin.svg" alt="linkedin link" />
-                </a>
-            </div>
-        </nav>
-        <!-- Hero - start -->
-        <section class="hero">
-            <div class="hero-img">
-                <!-- är du byter ut hero.jpeg till din egen bild är det viktigt att du byter src attributet nedan till det namn på din fil  -->
-                <img src="./hero.jpg" alt="hero image" />
-            </div>
-            <div>
-                <!-- div tagen ovan behövs då .hero är en flexbox och kommer
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav>
+        <!-- Byt ut mot dina initialer -->
+        <h2>MM</h2>
+        <div class="nav-links">
+            <!-- Byt ut alla href länkar till era egna länkar till respektive hemsida -->
+            <!-- target="_blank" öppnar länken i en ny tab -->
+            <!-- Alla svg filer är hämtade från https://feathericons.com/ -->
+            <a href="https://github.com/imMatheus" target="_blank">
+                <img src="./github.svg" alt="github link" />
+            </a>
+            <a href="https://github.com/imMatheus" target="_blank">
+                <img src="./instagram.svg" alt="instagram link" />
+            </a>
+            <a href="https://github.com/imMatheus" target="_blank">
+                <img src="./linkedin.svg" alt="linkedin link" />
+            </a>
+        </div>
+    </nav>
+    <!-- Hero - start -->
+    <section class="hero">
+        <div class="hero-img">
+            <!-- är du byter ut hero.jpeg till din egen bild är det viktigt att du byter src attributet nedan till det namn på din fil  -->
+            <img src="./hero.jpg" alt="hero image" />
+        </div>
+        <div>
+            <!-- div tagen ovan behövs då .hero är en flexbox och kommer
                  försöka lägga allt på en och samma horisontella linje-->
-                <!-- Byt ut följande texter -->
-                <h1>Hi, my name is Matheus and im a Junior Web Developer</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dignissimos saepe aperiam officia soluta eos, aspernatur
-                    quibusdam unde, optio similique sequi minus. Enim distinctio
-                    voluptatem dicta ipsum natus omnis repellendus soluta.
-                </p>
-                <!-- Länkar till en class längre ner, när man trycker på denna knapp kommer man skrolla ner till den klassen  -->
-                <a href="#work">
-                    <button class="white">Work</button>
-                </a>
-            </div>
-        </section>
-        <!-- Hero - end -->
-
-        <!-- Work - start -->
-        <!-- id attributet kommer anvandas för i hero delen av sidan där vi länkar hit -->
-        <section class="work" id="work">
-            <h2 class="work-title">Work</h2>
-            <p class="work-subtitle">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt
-                blanditiis, ratione assumenda ducimus, deleniti harum voluptatum
-                impedit sapiente, mollitia similique dolor atque veniam a error
-                doloribus tempora placeat laboriosam alias.
+            <!-- Byt ut följande texter -->
+            <h1>Hi, my name is Matheus and im a Junior Web Developer</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos saepe aperiam officia soluta eos, aspernatur
+                quibusdam unde, optio similique sequi minus. Enim distinctio
+                voluptatem dicta ipsum natus omnis repellendus soluta.
             </p>
-            <div class="chips-wrapper">
-                <div class="chip">react</div>
-                <div class="chip">firebase</div>
-                <div class="chip">npm</div>
-                <div class="chip">mongo db</div>
-                <div class="chip">javascript</div>
-                <div class="chip">typescript</div>
-                <div class="chip">html</div>
-                <div class="chip">css</div>
-            </div>
-        </section>
-        <!-- Work - end -->
-    </body>
+            <!-- Länkar till en class längre ner, när man trycker på denna knapp kommer man skrolla ner till den klassen  -->
+            <a href="#work">
+                <button class="white">Work</button>
+            </a>
+        </div>
+    </section>
+    <!-- Hero - end -->
+
+    <!-- Work - start -->
+    <!-- id attributet kommer anvandas för i hero delen av sidan där vi länkar hit -->
+    <section class="work" id="work">
+        <h2 class="work-title">Work</h2>
+        <p class="work-subtitle">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt
+            blanditiis, ratione assumenda ducimus, deleniti harum voluptatum
+            impedit sapiente, mollitia similique dolor atque veniam a error
+            doloribus tempora placeat laboriosam alias.
+        </p>
+        <div class="chips-wrapper">
+            <div class="chip">react</div>
+            <div class="chip">firebase</div>
+            <div class="chip">npm</div>
+            <div class="chip">mongo db</div>
+            <div class="chip">javascript</div>
+            <div class="chip">typescript</div>
+            <div class="chip">html</div>
+            <div class="chip">css</div>
+        </div>
+    </section>
+    <!-- Work - end -->
+</body>
+
 </html>
